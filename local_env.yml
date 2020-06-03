@@ -1,0 +1,22 @@
+name: local_fast_ai
+channels:
+  - roccqqck
+  - anaconda
+  - pytorch
+  - https://public.dhe.ibm.com/ibmdl/export/pub/software/server/ibm-ai/conda/linux-ppc64le/
+  - defaults
+dependencies:
+  - python=3.6
+  - numpy=1.18.1
+  - scipy=1.3.2
+  - tqdm=4.41.1
+  - nltk=3.4.5
+  - seaborn=0.10.0
+  - ipykernel
+  - pip:
+      - python-whois
+      - pyasn
+      - dnspython
+      - sklearn
+      - torch==1.0.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+      - fastai
