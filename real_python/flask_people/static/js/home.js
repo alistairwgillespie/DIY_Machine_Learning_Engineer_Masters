@@ -161,6 +161,7 @@ ns.controller = (function(m, v) {
         } else {
             alert('Problem with first or last name input');
         }
+        e.preventDefault();
     });
 
     $('#update').click(function(e) {
